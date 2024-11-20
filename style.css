@@ -1,0 +1,244 @@
+*{
+    margin: 0%; padding: 0%;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .dropdown-menu {
+    min-width: 300px;
+}
+.form-control {
+    margin-bottom: 10px;
+}
+
+  .hed{
+    background-color: black;
+    color: white;
+    display: flex;
+    /* width: 500px; */
+    /* border: 2px solid olive; */
+  }
+  .head {
+    display: flex;
+  }
+  .head li{
+    list-style: none;
+    text-decoration: none;
+  }
+  .head li a{
+    text-decoration: none;
+    color: white;
+  }
+  .btn{
+    background-color: #eb3f3f;
+    color: black;
+    font-size: 1rem;
+  }
+.header{
+    margin-top: -30px;
+    display: flex;
+}
+
+.left img{
+    width: 300px;
+}
+ .right {
+    /* border: 2px solid black; */
+    margin-top: 50px ;
+    margin-right:50px ;
+ }
+
+ .right nav ul{
+ list-style: none;
+ }
+
+ .right nav ul .upper{
+    display: flex;
+ }
+ .right nav ul .lower{
+    display: flex;
+    justify-content: center;
+ }
+
+ .right nav ul li{
+    color: black;
+    font-weight: bold;
+    margin: 20px; 
+    font-size: 1rem;
+ }
+
+.mid input{
+    margin-top: 100px;
+    color: gray;
+    font-size: 1rem;
+    padding: 10px;
+    border: 2px solid whitesmoke;
+    border-radius:40px ;
+    background-color: rgb(241, 239, 239);
+    /* margin-left:5    0px; */
+    width: 250px;
+}
+  /* ,containee */
+
+  /* Style the dropdown container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Style the dropdown menu */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 310px;
+    z-index: 1;
+    margin-right:80px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Style for the items inside the dropdown */
+.dropdown-content li {
+    padding: 10px 36px;
+    cursor: pointer;
+    /* margin-right: 15px; */
+}
+
+/* Change background color on hover */
+.dropdown-content li:hover {
+    background-color: #ddd;
+}
+
+/* Show the dropdown on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* boostrap */
+.carousel-item h1{
+   
+    margin-top:-350px ;
+    font-size: 4rem;
+    /* color: black; */
+
+}
+.carousel-item p{
+   
+    /* margin-top:-400px ; */
+    font-size: rem;
+
+}
+.carousel-item img{
+    margin-top: -400px;
+    height: 50%;
+    z-index: -1;
+    opacity: 0.7;
+}
+.catag{
+   
+    justify-items: center;
+    margin-top: 30px;
+    text-decoration: underline;
+    text-transform: uppercase;
+ 
+}
+
+.col{
+    margin-left: 50px;
+}
+.card{
+    display: flex;
+    float: left;
+    margin: 30px; 
+}
+.card img{
+    width: 250px;
+    display: flex;
+}
+
+.foot{
+    font-size: 0.7rem;
+    justify-items: center;
+    margin-top: 30px;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+/* footer  */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer-content {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+
+.footer-content h3 {
+    margin-bottom: 15px;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.cat-ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.cat-ul li {
+    margin-bottom: 8px;
+}
+
+.cat-ul li a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.cat-ul li a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/* Social Media Links */
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 25px;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #1da1f2; /* Change to the social media platform color */
+}
+
+.footer-bottom {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+    background-color: #222;
+    color: #aaa;
+}
+.cat-ul{
+    padding-left: 30px;
+}
+
+
+
+
+
